@@ -17,10 +17,9 @@ function App() {
 
      <Ubicacion /> 
      {/* <Contacto /> 
-     <Footer />  */}
+     <Footer /> */}
     </div>
 
   );
 }
-
 export default App;
