@@ -1,0 +1,35 @@
+  h1{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+  }
+  
+
+  .card-body {
+    padding: 2rem 0 !important;
+    background-color:#ff9100;
+  }
+  
+  .card-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
+  .overflow {
+    overflow: hidden;
+  }
+
+  .card-img-top {
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+  }
+  

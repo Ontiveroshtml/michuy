@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    margin-top: 100%;
+}
+
+.card2{
+    position:absolute;
+    float: right;
+    margin-right: 5%;
+    margin-top: 12%;
+}
+
+.cardUbicacion{
+    text-align: center;
+    color: white;
+    background-color: #000000;
+}
+
+.body{
+    background-color: #000000;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    margin-top:-20px
+}
+
+.subtitulo{
+    margin-bottom: 50px;
+}
