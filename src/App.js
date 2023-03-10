@@ -20,6 +20,8 @@ function App() {
      {/* <Contacto /> 
      <Footer />  */}
      <Whatsapp/>
+     {/* <Contacto /> 
+     <Footer />  */}
     </div>
 
   );
