@@ -18,13 +18,16 @@ function App() {
 
      <Ubicacion /> 
      {/* <Contacto /> 
+<<<<<<< HEAD
      <Footer />  */}
      <Whatsapp/>
      {/* <Contacto /> 
      <Footer />  */}
+=======
+     <Footer /> */}
+>>>>>>> d96bce7b12248ba7cb8293698368a548c36bba4a
     </div>
 
   );
 }
-
 export default App;
