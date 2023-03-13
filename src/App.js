@@ -6,6 +6,7 @@ import './App.css'
 import Ubicacion from './components/Ubicacion'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
+import Whatsapp from './components/Whatsapp'
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
 
      <Ubicacion /> 
      {/* <Contacto /> 
-     <Footer /> */}
+     <Footer />  */}
+     
+     <Whatsapp/>
+    
     </div>
 
   );

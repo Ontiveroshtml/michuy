@@ -21,7 +21,7 @@ const Inicio = () => {
             <div className='content' data-aos="fade-right">
                 <p>Llamanos!</p>
                 <p>(+52) 677-885-8894</p>
-                <p>Tacos y hamburguesas "MY CHUY" <FontAwesomeIcon icon="fa-brands fa-facebook" /></p>
+                <p>Tacos y hamburguesas "MI CHUY" <FontAwesomeIcon icon="fa-brands fa-facebook" /></p>
                 <Link to='Cards' style={{color:"#333", cursor:"pointer", textAlign:"center", textDecoration:"none"}} spy={true} smooth={true} offset={-142} duration={700} className='button' >Ver platillos <FontAwesomeIcon icon={faArrowRight} /></Link>
                 
             </div>
