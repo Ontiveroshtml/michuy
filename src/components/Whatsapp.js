@@ -1,5 +1,6 @@
 import React from 'react'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import './../App.css'
 
 export default function Whatsapp() {
 
