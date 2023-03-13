@@ -18,10 +18,7 @@ function App() {
 
      <Ubicacion /> 
      {/* <Contacto /> 
-     <Footer />  */}
-     
-     <Whatsapp/>
-    
+     <Footer /> */}
     </div>
 
   );
