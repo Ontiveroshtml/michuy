@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Inicio from './components/Inicio'
 import Cards from './components/Cards'
 import './App.css'
+import './components/Whatsapp'
 import Ubicacion from './components/Ubicacion'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
@@ -19,6 +20,8 @@ function App() {
      <Ubicacion /> 
      {/* <Contacto /> 
      <Footer /> */}
+
+     <Whatsapp/>
     </div>
 
   );

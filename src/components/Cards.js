@@ -12,18 +12,21 @@ const cards = [
     id: 1,
     title: "Hamburguesa",
     image: image1,
+    text: " ",
   },
 
   {
     id: 2,
     title: "Hotdog",
     image: image2,
+    text:" ",
   },
 
   {
     id: 3,
     title: "Taco",
     image: imagen3,
+    text: " ",
   }
 
 ];
@@ -42,9 +45,9 @@ function Cards() {
 
     <div className="container d-flex justify-content-center align-items-center h-100" id="Cards" data-aos="fade-right">
       <div className="row">
-        {cards.map(({ title, image, url, id }) => (
+        {cards.map(({ title, image, url, id, text }) => (
           <div className="col-md-4" key={id}>
-            <Card imageSource={image} title={title} url={url} />
+            <Card imageSource={image} title={title} text={text} />
           </div>
 
 

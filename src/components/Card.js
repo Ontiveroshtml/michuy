@@ -10,15 +10,12 @@ function Card({ imageSource, title, text, id }) {
 
     <div className="card text-center animate__animated animate__fadeInUp" >
       <div className="overflow" >
-        <img src={imageSource} alt="a wallpaper" className="card-img-top" style={{height: "320px"}} />
+        <img src={imageSource} alt="a wallpaper" className="card-img-top" style={{height: "400px"}} />
       </div>
       <div className="card-body text-light ">
         <h4 className="card-title fs-1" >{title}</h4>
-        <p className="card-text text-light fs-5 ">{id}
+        <p className="card-text text-light fs-5 ">
           {text
-            ? text
-            : "Lorem ipsum dolor sit amet consectetur adipiscing elit, morbi eros aliquam dui massa iaculis rutrum, penatibus leo sociis id scelerisque nec."
-            
 
           }
 
