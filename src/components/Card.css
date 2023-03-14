@@ -1,8 +1,12 @@
+  
   h1{
     text-align: center;
-    margin-top: 30%;
   }
 
+  .ContenedorCarta{
+    margin-top: 3vw;
+  }  
+  
 .card:hover {
     box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
     transition: all 0.7s linear;
@@ -15,7 +19,7 @@
   }
   
   .card-text {
-    padding: 0.3rem 1rem;
+    padding: 1rem 1rem;
     font-size: 1rem;
     text-align: justify;
   }
@@ -25,8 +29,9 @@
   }
 
   .card-img-top {
+
     transform: scale(1);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   
   .card-img-top:hover {

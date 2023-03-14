@@ -12,21 +12,21 @@ const cards = [
     id: 1,
     title: "Hamburguesa",
     image: image1,
-    text: " ",
+    text: "Sabrosa hamburguesa, sí que esta sabrosa no te miento ",
   },
 
   {
     id: 2,
     title: "Hotdog",
     image: image2,
-    text:" ",
+    text: "Hotdog delicioso, te lo juro que si es verdad ",
   },
 
   {
     id: 3,
     title: "Taco",
     image: imagen3,
-    text: " ",
+    text: "Taco de los dioses, con un solo bocado sentirás que estas en el cielo.",
   }
 
 ];
@@ -39,20 +39,23 @@ function Cards() {
 
   return (
     <>
-    <br/>
-    <br/>
+    <div className="ContenedorCarta">
     <h1 data-aos="fade-right">¡Conoce todos nuestros platillos!</h1>
 
     <div className="container d-flex justify-content-center align-items-center h-100" id="Cards" data-aos="fade-right">
       <div className="row">
-        {cards.map(({ title, image, url, id, text }) => (
+        {cards.map(({ title, image, id, text }) => (
           <div className="col-md-4" key={id}>
+
             <Card imageSource={image} title={title} text={text} />
+            
           </div>
-
-
+          
         ))}
+
+        
       </div>
+    </div>
     </div>
     </>
   );
