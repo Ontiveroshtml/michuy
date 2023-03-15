@@ -55,7 +55,7 @@ export class MapContainer extends Component {
         <br />
         <br />
         <br />
-        <h1 data-aos="fade-right">¡Visitanos!</h1>
+        <h1>¡Visitanos!</h1>
 
 
         <div className='cardUbicacion' data-aos="fade-right" >
