@@ -1,8 +1,12 @@
-h1{
-    text-align: center;
-    margin-top: 100%;
-}
 
+section h1{
+    text-align: center;
+    color: #fff;
+}
+section{
+    background-color: #000000;
+    height: 41.1vw;
+}
 .card2{
     position:absolute;
     float: right;
@@ -16,15 +20,15 @@ h1{
     background-color: #000000;
 }
 
-.body{
+.Ubicacion{
     background-color: #000000;
 }
 
-.titulo{
-    margin-bottom: 20px;
-    margin-top:-20px
+.googleMaps {
+    background-color: #000000;
 }
 
-.subtitulo{
-    margin-bottom: 50px;
+.body{
+    background-color: #ff9100;
 }
+

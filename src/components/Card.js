@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import PropTypes from "prop-types";
 import "./Card.css";
 
@@ -6,11 +6,9 @@ function Card({ imageSource, imagenSource2, title, text, id }) {
 
   return (
     <>
-   
-
     <div className="card text-center animate__animated animate__fadeInUp" >
       <div className="overflow" >
-        <img src={imageSource} className="card-img-top" style={{height: "400px", objectFit: "cover"}} />
+        <img src={imageSource} className="card-img-top" alt='imagen' style={{height: "400px", objectFit: "cover"}} />
     </div>
       <div className="card-body text-light ">
         <h4 className="card-title fs-1" >{title}</h4>

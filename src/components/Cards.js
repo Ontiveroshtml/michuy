@@ -41,7 +41,7 @@ function Cards() {
     <>
     <div className="ContenedorCarta">
     <h1 data-aos="fade-right">¡Conoce todos nuestros platillos!</h1>
-
+    
     <div className="container d-flex justify-content-center align-items-center h-100" id="Cards" data-aos="fade-right">
       <div className="row">
         {cards.map(({ title, image, id, text }) => (

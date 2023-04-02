@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Ubicacion.css";
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
-import PlacesAutocomplete, {
+import {
   geocodeByAddress,
   getLatLng,
 } from 'react-places-autocomplete';
@@ -55,22 +55,19 @@ export class MapContainer extends Component {
         <br />
         <br />
         <br />
+        <section>
         <h1>¡Visitanos!</h1>
-
-
         <div className='cardUbicacion' data-aos="fade-right" >
         <Card style={{ width: '20rem', height:'31rem', marginLeft:'75%', position:'absolute'}}>
           <Card.Body className='body'>
             
           <div className=' titulo border-bottom border-light'>
             <Card.Title className=' card-title fs-1'>Ubicación</Card.Title>
-          </div>
-
-          <div className='subtitulo'>
             <Card.Subtitle className=" card-text fs-6">Visitanos y degusta de nuestra comida</Card.Subtitle>
           </div>
+          
             <Card.Text>
-              <h4 >Nos ubicamos en:</h4>
+              <h4><strong>Nos ubicamos en:</strong></h4>
 
               <h6>Colonia:</h6>
               <p>Paso real</p>
@@ -88,7 +85,7 @@ export class MapContainer extends Component {
 
         <div id='Ubicacion' className='googleMaps' >
           <Map
-            style={{ width: "70%", height: "70%", backgroundColor: "#black", marginLeft: "5%" }}
+            style={{ width: "70%", height: "70%", backgroundColor: "#00000", marginLeft: "5%" }}
             google={this.props.google}
             initialCenter={{
               lat: this.state.mapCenter.lat, 
@@ -106,6 +103,7 @@ export class MapContainer extends Component {
               }} />
           </Map>
         </div>
+        </section>
       </>
     )
   }

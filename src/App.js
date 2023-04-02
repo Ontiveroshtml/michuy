@@ -13,15 +13,13 @@ function App() {
   return (
 
     <div>
+      <Whatsapp/>
       <Navbar />
       <Inicio />
       <Cards />
-
-     <Ubicacion /> 
-     {/* <Contacto /> 
-     <Footer /> */}
-
-     <Whatsapp/>
+      <Contacto />
+      <Ubicacion />
+      <Footer />
     </div>
 
   );

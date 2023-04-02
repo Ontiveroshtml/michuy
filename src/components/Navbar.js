@@ -38,15 +38,17 @@ const Navbar = () => {
 
                     <li className='nav-item'>
                         <div className='link-underline link-underline-black link-underline:hover'>
-                            <Link to='Ubicacion' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-160} duration={700} onClick={closeMenu}>Ubicación</Link>
+                            <Link to='Contacto' style={{color:"#ffff", cursor:"pointer"}} onClick={closeMenu} spy={true} smooth={true} offset={-95} duration={700} >Contacto</Link>
+                        </div>
+                    </li>
+
+                    <li className='nav-item'>
+                        <div className='link-underline link-underline-black link-underline:hover'>
+                            <Link to='Ubicacion' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}>Ubicación</Link>
                         </div>
                     </li>
                     
-                    {/* <li className='nav-item'>
-                        <div className='link-underline link-underline-black link-underline:hover'>
-                            <a href='#demo' onClick={closeMenu}>Contacto</a>
-                        </div>
-                    </li> */}
+
                 </ul>
             </nav>
         </div>
